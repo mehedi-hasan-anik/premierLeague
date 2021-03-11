@@ -7,10 +7,8 @@ import twitter from '../image/Twitter.png'
 import youtube from '../image/YouTube.png'
 import Male from '../image/male.png'
 import Female from '../image/female.png'
-
-
 import './TeamDetails.css'
-import Social from '../Social/Social';
+
 
 
 const TeamDetails = () => {
