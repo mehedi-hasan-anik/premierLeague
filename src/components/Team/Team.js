@@ -2,10 +2,10 @@ import React from 'react';
 import { useHistory } from 'react-router';
 import './Team.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDoubleRight, faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDoubleRight } from '@fortawesome/free-solid-svg-icons'
 
 const Team = ({team}) => {
-    const{idTeam,strTeam,strTeamLogo,strGender,strAlternate,strSport,strTeamBadge}=team;
+    const{idTeam,strTeam,strSport,strTeamBadge}=team;
    
     const history = useHistory()
     const handle = id =>{
