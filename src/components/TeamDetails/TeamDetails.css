@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    padding:0;
+}
+.all-area{
+    background: #440c5a;
+    
+}
+.main-area{
+    
+}
+.logo-area{
+    background: linear-gradient(rgba(135, 80, 156, 0.3), rgba(135, 80, 156, 0.3)), url(../image/thomas-serer-r-xKieMqL34-unsplash.jpg);
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% center;
+    margin-bottom: 60px;
+   
+}
+.logo{
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.center-area{
+  background: #A610E1;
+  color: #fff;
+  overflow: hidden;
+  border-radius: 20px;
+  height: auto;
+}
+.left-area{
+ float: left;
+ width: 42%;
+ padding: 2%;
+
+}
+.left-area h1{
+    margin-bottom: 20px;
+}
+.right-area{
+ float: right;
+ width: 42%;
+ padding: 2%;
+}
+.right-area img{
+    width: 100%;
+}
+/* .left-logo-area-1{
+    background: url(../image/male.png);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+} */
+/* .left-logo-area-2{
+    background: url(../image/female.png);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+} */
+.description-area{
+  margin-top: 50px;
+}
+.description-area p{
+    color: #fff;
+}
+/* .social-area{
+    position: relative;
+    margin-top: 100px;
+}
+.inner-social-area{
+    width: 200px;
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.inner-social-area img{
+    width: 60px;
+    
+} */
+
+.social-area{
+    text-align: center;
+    margin-top: 50px;
+}
+.social-area img{
+    width: 50px;
+    
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .right-area{
+        width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .right-area{
+        width: 100%;
+    }
+  }
