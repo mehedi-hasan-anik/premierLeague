@@ -16,7 +16,6 @@ const TeamDetails = () => {
     const [team,setTeam]=useState({});
     const{intFormedYear,strCountry,strGender,strTeam,strSport,strTeamBadge,strDescriptionEN,strYoutube,strFacebook,strTwitter}=team;
     
-    const gender= strGender;
     
    
     useEffect(()=>{
@@ -49,7 +48,7 @@ const TeamDetails = () => {
                     
                       {
                       
-                         gender === "Male" ?  <img src={Male} alt=""/>:<img src={Female} alt=""/>
+                         strGender === "Male" ?  <img src={Male} alt=""/>:<img src={Female} alt=""/>
 
     
                        }
