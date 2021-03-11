@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+    padding: 0;
+}
 .cart{
      margin:10px;
      padding:20px;
@@ -11,3 +15,21 @@
     color: antiquewhite;
     border-radius: 5px;
 }
+
+
+
+
+@media screen and (max-width: 300px) {
+    .cart{
+        margin-bottom:5px;
+        padding:30px;
+        border-radius: 20px;
+        background-color:#fff;
+        color:#000;
+        text-align: center;
+   }
+   .cart h3{
+       font-size: 20px;
+       color:#A610E1;
+   }
+  }

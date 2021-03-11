@@ -2,7 +2,7 @@
 body{
     margin: 0;
     padding: 0;
-    width: 100%;
+   
     
 }
 .main-area{
@@ -16,3 +16,9 @@ body{
 }
 
 
+@media screen and (max-width: 300px) {
+    .row{
+        margin: 0;
+        
+    }
+  }

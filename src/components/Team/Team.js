@@ -18,7 +18,7 @@ const Team = ({team}) => {
        
      <div className="cart">
         <img style={{width:'100%'}} src={strTeamBadge} alt=""/ >
-        <h2>{strTeam}</h2>
+        <h3 style={{ color:'#A610E1'}}>{strTeam}</h3>
         <p>Sport Type : {strSport}</p>
         <button onClick={()=> handle(idTeam)}>Explore<FontAwesomeIcon icon={faAngleDoubleRight} /></button>
     </div>

@@ -14,7 +14,7 @@ import './TeamDetails.css'
 const TeamDetails = () => {
     const{teamId}=useParams();
     const [team,setTeam]=useState({});
-    const{intFormedYear,strCountry,strGender,strTeam,strSport,strTeamBadge,strDescriptionEN,strYoutube,strFacebook,strTwitter}=team;
+    const{intFormedYear,strCountry,strGender,strTeam,strSport,strTeamBadge,strDescriptionEN,strYoutube,strFacebook,strTwitter,strTeamBanner}=team;
     
     
    
