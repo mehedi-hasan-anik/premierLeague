@@ -8,7 +8,7 @@ Then build the website.
 - https://www.thesportsdb.com/api/v1/json/1/lookup_all_teams.php?id=4328
 
 # Repository link & live link
--https://github.com/Porgramming-Hero-web-course/react-router-mehedi-hasan-anik
+- https://github.com/mehedi-hasan-anik/premierLeague.git
 - https://youthful-snyder-bc2c33.netlify.app/
 ## All Features 
 - bootstrap 
